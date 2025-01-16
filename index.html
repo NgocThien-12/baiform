@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>bài tập thẻ form</title>
+  </head>
+  <body>
+    <h2>Bài tập Form</h2>
+    <fieldset>
+      <form action="">
+        <label for="Nhập tên">Tên Đăng Nhập</label> <br />
+        <i class="fa-solid fa-user"></i
+        ><input
+          type="text"
+          name="tài khoản"
+          id="Nhập tên"
+          placeholder=" Nhập Tên"
+          required
+        /><br />
+        <label for="Nhập MK"> Nhập Mật Khẩu</label><br />
+        <i class="fa-solid fa-key"></i
+        ><input
+          type="password"
+          name="tài khoản"
+          id="Nhập MK"
+          placeholder=" Nhập MK"
+          required
+        /><br />
+        <p>Chọn giới tính</p>
+        <input type="radio" name="gt" value="" /> Nam <br />
+        <input type="radio" name="gt" value="" />Nữ <br />
+        <select name="Tỉnh" size="1" id="">
+          <option value="0">----Chọn Tỉnh----</option>
+          <option value="1">Cần thơ</option>
+          <option value="2">TP Hồ CHính Minh</option>
+          <option value="3">TP Đà Nẵng</option>
+          <option value="3">Phú Yên</option>
+        </select>
+        <br />
+        <input type="submit" name="" value="Đăng Nhập" />
+        <br />
+      </form>
+    </fieldset>
+  </body>
+</html>
